@@ -1,6 +1,8 @@
 # Zombie Blast 3D (ZB3D)
 
-A Doom-style 2.5D first-person zombie shooter written from scratch in pure Python on `cmu_graphics`. Built as my CMU 15-112 term project (Spring 2026), where it placed **2nd in the course-wide Term Project Showcase**.
+A from-scratch 2.5D polygonal raycasting renderer inspired by *Doom* (1993), written in pure Python with no engine or rendering libraries. The core is analytic ray–segment intersection against arbitrary wall geometry, solved per ray with Cramer's rule. On top of that sit fisheye-corrected perspective projection, distance- and orientation-based shading, depth-tested billboard sprites, and wall-sliding collision. A first-person zombie shooter is built on the engine as its test application.
+
+CMU 15-112 term project (Spring 2026). Placed **2nd in the course-wide Term Project Showcase**, the top pure-Python entry.
 
 > *The year is 2027. AI has taken over every task. Human brains, unused, began to rot. They now roam the world as zombies, hungry for the last independent mind. That mind is yours.*
 
